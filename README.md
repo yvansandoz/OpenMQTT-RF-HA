@@ -38,9 +38,10 @@ Crédits: https://github.com/1technophile
 
 ## Matériel
 
-Les options choisies pour l&#39;émetteur/récepteur sont :
+Les options choisies pour les émetteur/récepteur sont :
+![](https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/stx_srx_822.JPG) ![](https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/wemos_d1_mini.jpg) 
 
-- É ![](RackMultipart20211113-4-1mj04oa_html_c31f9c7c7ce7d037.png) ![](RackMultipart20211113-4-1mj04oa_html_d14afb26d6abb6a4.jpg) metteur : STX822
+- Émetteur : STX822
 - Récepteur : SRX822
 - ESP : Wemos D1 Mini
 
@@ -67,7 +68,6 @@ Les composants RTX822 et STX822 ne sont pas exactement les bons sur le schéma, 
 
 ![](https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/OpenMQTTGateway_Sketch.png)
 
-https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/OpenMQTTGateway_Sketch.png
 
 # Configuration
 
