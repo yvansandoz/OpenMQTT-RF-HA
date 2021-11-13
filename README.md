@@ -65,7 +65,7 @@ Les composants RTX822 et STX822 ne sont pas exactement les bons sur le schéma, 
 | STX822 | VCC | GND |
  | DATA |
 
-![](RackMultipart20211113-4-1mj04oa_html_da2d288d91bb6e9f.png)
+![](https://github.com/yvansandoz/OpenMQTT-RF-HA/Pictures/OpenMQTTGateway Sketch.png)
 
 # Configuration
 
