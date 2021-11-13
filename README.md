@@ -1,17 +1,20 @@
-# OpenMQTT-RF-HA
-
-https://github.com/1technophile/OpenMQTTGateway.git
+# OpenMQTT RF avec HA
+Mais c&#39;est si simple !
 
 
 ![](RackMultipart20211113-4-1mj04oa_html_ea8a5a0ebcb80386.jpg)
 
-# OpenMQTT RF avec HA
-Mais c&#39;est si simple !
+# 
+
 
 Nous passons ici en revue les étapes de la construction, de la configuration et de l&#39;intégration d&#39;un émetteur/récepteur RF 433.92 MHz pour Home Assistant. La plateforme OpenMQTT offre la possibilité de créer d&#39;autres passerelles (LoRa, Bluetooth, …), mais nous nous limitons ici à l&#39;option RF.
 
 Ce descriptif ne remplace pas la documentation officielle qui sert de base à ce document :
 [https://docs.openmqttgateway.com](https://docs.openmqttgateway.com/)
+
+GitHub original: https://github.com/1technophile/OpenMQTTGateway.git
+Crédits: https://github.com/1technophile
+
 
 # Table des matières
 
