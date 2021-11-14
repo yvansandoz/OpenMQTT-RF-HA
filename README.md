@@ -5,7 +5,7 @@ Mais c'est si simple !
 
 Nous passons ici en revue les étapes de la construction, de la configuration et de l'intégration d'un émetteur/récepteur RF 433.92 MHz pour Home Assistant. La plateforme OpenMQTT offre la possibilité de créer d'autres passerelles (LoRa, Bluetooth, …), mais nous nous limitons ici à l'option RF.
 
-Ce descriptif ne remplace pas la [documentation officielle](https://https://docs.openmqttgateway.com) qui sert de base à ce document.
+Ce descriptif ne remplace pas la [documentation officielle](https://docs.openmqttgateway.com) qui sert de base à ce document.
 
 GitHub original: [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway.git)\
 Crédits: [1technophile](https://github.com/1technophile)
