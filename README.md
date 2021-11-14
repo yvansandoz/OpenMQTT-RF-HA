@@ -58,7 +58,9 @@ Les composants RTX822 et STX822 ne sont pas exactement les bons sur le schéma, 
 
 L'option 3 du mode de configuration est choisie, avec l'aide du logiciel Arduino IDE, c'est l'option qui offre la plus grande flexibilité de configuration.
 
-## Programmation de l&#39;ESP
+Les 2 fichiers (User_config.h et config_RF.h) dont la modification est décrite ci-dessous sont disponibles déjà modifiés dans le dossier ["main"](https://github.com/yvansandoz/OpenMQTT-RF-HA/tree/main/main) de ce projet.
+
+## Programmation de l'ESP
 
 1. Assurez-vous d'avoir la dernière version de Arduino IDE avec la libraire ESP8266 (ou ESP32 en fonction de l'ESP choisi) ([tutoriel](https://github.com/esp8266/Arduino#installing-with-boards-manager)).
 2. Télécharger la librairie spécifique à ce projet (RF avec Wemos D1 mini): [nodemcuv2-rf-librairies.zip](https://github.com/1technophile/OpenMQTTGateway/releases/download/v0.9.8/nodemcuv2-rf-libraries.zip) (Vous trouvez ici le lien pour la liste de toutes les autres librairies au cas où vous souhaitez partir sur d'autres composants ou pour créer un autre type de passerelle : [lien](https://github.com/1technophile/OpenMQTTGateway/releases))
