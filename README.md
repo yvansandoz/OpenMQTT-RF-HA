@@ -1,16 +1,13 @@
 # OpenMQTT RF avec HA
-Mais c&#39;est si simple !
+Mais c'est si simple !
 
 
-![](RackMultipart20211113-4-1mj04oa_html_ea8a5a0ebcb80386.jpg)
-
-# 
+![](https://i.imgur.com/AwOfCaj.jpg)
 
 
-Nous passons ici en revue les étapes de la construction, de la configuration et de l&#39;intégration d&#39;un émetteur/récepteur RF 433.92 MHz pour Home Assistant. La plateforme OpenMQTT offre la possibilité de créer d&#39;autres passerelles (LoRa, Bluetooth, …), mais nous nous limitons ici à l&#39;option RF.
+Nous passons ici en revue les étapes de la construction, de la configuration et de l'intégration d'un émetteur/récepteur RF 433.92 MHz pour Home Assistant. La plateforme OpenMQTT offre la possibilité de créer d'autres passerelles (LoRa, Bluetooth, …), mais nous nous limitons ici à l'option RF.
 
-Ce descriptif ne remplace pas la documentation officielle qui sert de base à ce document :
-[https://docs.openmqttgateway.com](https://docs.openmqttgateway.com/)
+Ce descriptif ne remplace pas la documentation officielle qui sert de base à ce document : [https://docs.openmqttgateway.com](https://https://docs.openmqttgateway.com)
 
 GitHub original: https://github.com/1technophile/OpenMQTTGateway.git
 Crédits: https://github.com/1technophile
@@ -18,32 +15,23 @@ Crédits: https://github.com/1technophile
 
 # Table des matières
 
-[Construction 3](#_Toc87694757)
-
-[Matériel 3](#_Toc87694758)
-
-[Commentaire 3](#_Toc87694759)
-
-[Schéma de branchement 3](#_Toc87694760)
-
-[Configuration 4](#_Toc87694761)
-
-[Programmation de l&#39;ESP 4](#_Toc87694762)
-
-[Configuration du Réseau WiFi et de MQTT 4](#_Toc87694763)
-
-[Intégration 5](#_Toc87694764)
+1. [Construction](#Construction)
+2. [Configuration](#Configuration)
+3. [Intégration](#Intégration)
 
 # Construction
 
 ## Matériel
 
 Les options choisies pour les émetteur/récepteur sont :
-![](https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/stx_srx_822.JPG) ![](https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/wemos_d1_mini.jpg) 
 
 - Émetteur : STX822
 - Récepteur : SRX822
-- ESP : Wemos D1 Mini
+
+<img src="https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/wemos_d1_mini.jpg" alt="822"
+	title="STX822/RTX822" width="100" height="100" />
+
+- Récepteur : Wemos D1 mini
 
 Il existe des kits avec le STX822 et le SRX822 sur Banggood et sur Aliexpress. Bastelgarage.ch offre aussi des composants similaires à un prix très attractif.
 
@@ -55,16 +43,16 @@ Avec les composants choisis ci-dessus, la passerelle fonctionne en 433.92 MHz, c
 
 Les composants RTX822 et STX822 ne sont pas exactement les bons sur le schéma, mais vous comprendrez avec l&#39;aide du tableau ci-dessous.
 
-| **Composants** | **Connexions** |
- |
- |
- |
-| --- | --- | --- | --- | --- |
-| Wemos D1 mini | 5V | G | D1 | D2 |
-| SRX822 | VCC | GND | CS |
- |
-| STX822 | VCC | GND |
- | DATA |
+| Composants       | Connexions |      |      |      |
+| ---------------- | ---------- | ---- | ---- | ---- |
+| Wemos D1 mini    | 5V         | G    | D1   | D2   |
+| SRX822           | VCC        | GND  | CS   |      |
+| STX822           | VCC        | GND  |      | DATA |
+
+
+
+
+
 
 ![](https://github.com/yvansandoz/OpenMQTT-RF-HA/blob/main/pictures/OpenMQTTGateway_Sketch.png)
 
